@@ -1,1 +1,1 @@
-# dark-mode-converter-using-javascript
+# This is dark-mode converter mini project using html, css and javascript.

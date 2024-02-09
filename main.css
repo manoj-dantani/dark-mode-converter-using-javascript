@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 250px;
+}
+
+#conv{
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+#mode{
+    height: 45px;
+    width: 45px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+h1{
+    position: absolute;
+    margin-top: -100px;
+}
+
+.dark-mode{
+    transition: all 0.40s ease-in;
+    background-color: black;
+}
+
+.light-mode{
+    transition: all 0.40s ease-in;
+    background-color: white;
+}
