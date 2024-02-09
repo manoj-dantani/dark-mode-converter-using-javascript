@@ -1,6 +1,6 @@
 let currMode = "light";
 let body = document.querySelector("body");
-let h1 = document.querySelector("h1");
+let heading = document.querySelector("h1");
 let modeContainer = document.getElementById("conv");
 let mode = document.getElementById("mode");3
 
@@ -18,8 +18,7 @@ function modes(){
 function ligthMode(){
     body.classList.remove("light-mode");
     body.classList.add("dark-mode");
-    h1.innerText = "We are in dark-mode";
-    h1.style.color = "White";
+    heading.innerText = "We are in dark mode";
     mode.style.transition = "all 0.30s ease-in";
     mode.style.backgroundColor = "white";
     mode.style.transform = "translate(100px)";
@@ -33,8 +32,7 @@ function ligthMode(){
 function darkMode(){
     body.classList.remove("dark-mode");
     body.classList.add("light-mode");
-    h1.innerText = "We are in light-mode";
-    h1.style.color = "black";
+    heading.innerText = "We are in light mode";
     mode.style.transition = "all 0.30s ease-in";
     mode.style.backgroundColor = "black";
     mode.style.transform = "translate(0px)";

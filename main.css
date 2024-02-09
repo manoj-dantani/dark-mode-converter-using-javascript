@@ -17,6 +17,7 @@
     width: 45px;
     border: 2px solid black;
     border-radius: 50%;
+    background-color: black;
     cursor: pointer;
 }
 
@@ -28,9 +29,11 @@ h1{
 .dark-mode{
     transition: all 0.40s ease-in;
     background-color: black;
+    color: white;
 }
 
 .light-mode{
     transition: all 0.40s ease-in;
     background-color: white;
+    color: black;
 }
